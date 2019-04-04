@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+".\main.o"
+".\stm32f10x_it.o"
+".\misc.o"
+".\stm32f10x_gpio.o"
+".\stm32f10x_rcc.o"
+".\stm32f10x_sdio.o"
+".\core_cm3.o"
+".\system_stm32f10x.o"
+".\startup_stm32f10x_md.o"
+".\delay.o"
+--library_type=microlib --strict --scatter ".\System Tick.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\System Tick.map" -o ".\System Tick.axf"

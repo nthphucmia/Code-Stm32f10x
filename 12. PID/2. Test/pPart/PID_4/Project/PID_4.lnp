@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+".\main.o"
+".\stm32f10x_it.o"
+".\system_stm32f10x.o"
+".\core_cm3.o"
+".\misc.o"
+".\stm32f10x_adc.o"
+".\stm32f10x_exti.o"
+".\stm32f10x_flash.o"
+".\stm32f10x_gpio.o"
+".\stm32f10x_rcc.o"
+".\stm32f10x_sdio.o"
+".\stm32f10x_tim.o"
+".\stm32f10x_usart.o"
+".\startup_stm32f10x_md.o"
+".\dc_motor_control.o"
+".\delay.o"
+".\encoder_configuration.o"
+".\gpio_configuration.o"
+".\user_interrupt.o"
+".\usart_serial.o"
+--library_type=microlib --strict --scatter ".\PID_4.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\PID_4.map" -o .\PID_4.axf

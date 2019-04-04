@@ -1,0 +1,199 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Mia Nguyen, Individual, LIC=MPP74-F4Z7F-SY2VA-1JR3I-K5DIW-62T2I
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DCM.DLL V1.13.4.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+H:\2. CODE PRACTICING\3. ARM\STMF10x\1. Practice\10. LCD\LCD_0\Project\LCD_0.uvprojx
+Project File Date:  03/02/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'LCD_0'
+compiling misc.c...
+compiling stm32f10x_it.c...
+..\Source\Source_DIY\inc\User_interrupt.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\inc\Usart_serial.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\inc\GPIO_Configuration.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\inc\GPIO_Configuration.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\stm32f10x_it.c: 4 warnings, 0 errors
+compiling main.c...
+..\Source\Source_DIY\inc\Usart_serial.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\inc\User_interrupt.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\inc\GPIO_Configuration.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\inc\GPIO_Configuration.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\inc\Encoder_Configuration.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\inc\DC_Motor_Control.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\inc\DC_Motor_Control.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\inc\I2C.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(120): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(78): warning:  #1295-D: Deprecated declaration LCDI2C_clear - give arg types
+    void LCDI2C_clear();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(79): warning:  #1295-D: Deprecated declaration LCDI2C_home - give arg types
+    void LCDI2C_home();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(80): warning:  #1295-D: Deprecated declaration LCDI2C_noDisplay - give arg types
+    void LCDI2C_noDisplay();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(81): warning:  #1295-D: Deprecated declaration LCDI2C_display - give arg types
+    void LCDI2C_display();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(82): warning:  #1295-D: Deprecated declaration LCDI2C_noBlink - give arg types
+    void LCDI2C_noBlink();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(83): warning:  #1295-D: Deprecated declaration LCDI2C_blink - give arg types
+    void LCDI2C_blink();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(84): warning:  #1295-D: Deprecated declaration LCDI2C_noCursor - give arg types
+    void LCDI2C_noCursor();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(85): warning:  #1295-D: Deprecated declaration LCDI2C_cursor - give arg types
+    void LCDI2C_cursor();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(86): warning:  #1295-D: Deprecated declaration LCDI2C_scrollDisplayLeft - give arg types
+    void LCDI2C_scrollDisplayLeft();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(87): warning:  #1295-D: Deprecated declaration LCDI2C_scrollDisplayRight - give arg types
+    void LCDI2C_scrollDisplayRight();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(88): warning:  #1295-D: Deprecated declaration LCDI2C_printLeft - give arg types
+    void LCDI2C_printLeft();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(89): warning:  #1295-D: Deprecated declaration LCDI2C_printRight - give arg types
+    void LCDI2C_printRight();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(90): warning:  #1295-D: Deprecated declaration LCDI2C_leftToRight - give arg types
+    void LCDI2C_leftToRight();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(91): warning:  #1295-D: Deprecated declaration LCDI2C_rightToLeft - give arg types
+    void LCDI2C_rightToLeft();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(92): warning:  #1295-D: Deprecated declaration LCDI2C_shiftIncrement - give arg types
+    void LCDI2C_shiftIncrement();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(93): warning:  #1295-D: Deprecated declaration LCDI2C_shiftDecrement - give arg types
+    void LCDI2C_shiftDecrement();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(94): warning:  #1295-D: Deprecated declaration LCDI2C_noBacklight - give arg types
+    void LCDI2C_noBacklight();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(95): warning:  #1295-D: Deprecated declaration LCDI2C_backlight - give arg types
+    void LCDI2C_backlight();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(96): warning:  #1295-D: Deprecated declaration LCDI2C_autoscroll - give arg types
+    void LCDI2C_autoscroll();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(97): warning:  #1295-D: Deprecated declaration LCDI2C_noAutoscroll - give arg types
+    void LCDI2C_noAutoscroll();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(105): warning:  #1295-D: Deprecated declaration LCDI2C_blink_on - give arg types
+  void LCDI2C_blink_on();						// alias for blink()
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(106): warning:  #1295-D: Deprecated declaration LCDI2C_blink_off - give arg types
+  void LCDI2C_blink_off();       					// alias for noBlink()
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(107): warning:  #1295-D: Deprecated declaration LCDI2C_cursor_on - give arg types
+  void LCDI2C_cursor_on();      	 					// alias for cursor()
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(108): warning:  #1295-D: Deprecated declaration LCDI2C_cursor_off - give arg types
+  void LCDI2C_cursor_off();      					// alias for noCursor()
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(120): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\main.c: 34 warnings, 0 errors
+compiling stm32f10x_exti.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+compiling core_cm3.c...
+compiling stm32f10x_tim.c...
+assembling startup_stm32f10x_md.s...
+compiling system_stm32f10x.c...
+compiling delay.c...
+compiling LiquidCrystal_I2C.c...
+..\Source\Source_DIY\inc\I2C.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(120): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(78): warning:  #1295-D: Deprecated declaration LCDI2C_clear - give arg types
+    void LCDI2C_clear();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(79): warning:  #1295-D: Deprecated declaration LCDI2C_home - give arg types
+    void LCDI2C_home();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(80): warning:  #1295-D: Deprecated declaration LCDI2C_noDisplay - give arg types
+    void LCDI2C_noDisplay();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(81): warning:  #1295-D: Deprecated declaration LCDI2C_display - give arg types
+    void LCDI2C_display();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(82): warning:  #1295-D: Deprecated declaration LCDI2C_noBlink - give arg types
+    void LCDI2C_noBlink();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(83): warning:  #1295-D: Deprecated declaration LCDI2C_blink - give arg types
+    void LCDI2C_blink();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(84): warning:  #1295-D: Deprecated declaration LCDI2C_noCursor - give arg types
+    void LCDI2C_noCursor();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(85): warning:  #1295-D: Deprecated declaration LCDI2C_cursor - give arg types
+    void LCDI2C_cursor();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(86): warning:  #1295-D: Deprecated declaration LCDI2C_scrollDisplayLeft - give arg types
+    void LCDI2C_scrollDisplayLeft();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(87): warning:  #1295-D: Deprecated declaration LCDI2C_scrollDisplayRight - give arg types
+    void LCDI2C_scrollDisplayRight();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(88): warning:  #1295-D: Deprecated declaration LCDI2C_printLeft - give arg types
+    void LCDI2C_printLeft();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(89): warning:  #1295-D: Deprecated declaration LCDI2C_printRight - give arg types
+    void LCDI2C_printRight();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(90): warning:  #1295-D: Deprecated declaration LCDI2C_leftToRight - give arg types
+    void LCDI2C_leftToRight();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(91): warning:  #1295-D: Deprecated declaration LCDI2C_rightToLeft - give arg types
+    void LCDI2C_rightToLeft();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(92): warning:  #1295-D: Deprecated declaration LCDI2C_shiftIncrement - give arg types
+    void LCDI2C_shiftIncrement();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(93): warning:  #1295-D: Deprecated declaration LCDI2C_shiftDecrement - give arg types
+    void LCDI2C_shiftDecrement();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(94): warning:  #1295-D: Deprecated declaration LCDI2C_noBacklight - give arg types
+    void LCDI2C_noBacklight();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(95): warning:  #1295-D: Deprecated declaration LCDI2C_backlight - give arg types
+    void LCDI2C_backlight();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(96): warning:  #1295-D: Deprecated declaration LCDI2C_autoscroll - give arg types
+    void LCDI2C_autoscroll();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(97): warning:  #1295-D: Deprecated declaration LCDI2C_noAutoscroll - give arg types
+    void LCDI2C_noAutoscroll();
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(105): warning:  #1295-D: Deprecated declaration LCDI2C_blink_on - give arg types
+  void LCDI2C_blink_on();						// alias for blink()
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(106): warning:  #1295-D: Deprecated declaration LCDI2C_blink_off - give arg types
+  void LCDI2C_blink_off();       					// alias for noBlink()
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(107): warning:  #1295-D: Deprecated declaration LCDI2C_cursor_on - give arg types
+  void LCDI2C_cursor_on();      	 					// alias for cursor()
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(108): warning:  #1295-D: Deprecated declaration LCDI2C_cursor_off - give arg types
+  void LCDI2C_cursor_off();      					// alias for noCursor()
+..\Source\Source_DIY\inc\LiquidCrystal_I2C.h(120): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\src\LiquidCrystal_I2C.c: 27 warnings, 0 errors
+compiling I2C.c...
+..\Source\Source_DIY\inc\I2C.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Source\Source_DIY\src\I2C.c(89): warning:  #1-D: last line of file ends without a newline
+  }
+..\Source\Source_DIY\src\I2C.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=2372 RO-data=284 RW-data=40 ZI-data=1040  
+FromELF: creating hex file...
+".\Objects\LCD_0.axf" - 0 Error(s), 67 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  H:\2. CODE PRACTICING\3. ARM\STMF10x\1. Practice\10. LCD\LCD_0\Project\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:09
+</pre>
+</body>
+</html>
